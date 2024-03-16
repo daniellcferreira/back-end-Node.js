@@ -1,12 +1,12 @@
 const prompt = require("prompt-sync")();
 
-console.log("0. Sair do Sistema\n");
-console.log("1. Cadastrar Usuario\n");
-console.log("2. Pesquisar Usuario por CPF\n");
-console.log("3. Adicionar esporte ao Usuario\n");
-console.log("4. Deletar Usuario\n");
+console.log("0. Sair do Sistema");
+console.log("1. Cadastrar Usuario");
+console.log("2. Pesquisar Usuario por CPF");
+console.log("3. Adicionar esporte ao Usuario");
+console.log("4. Deletar Usuario");
 
-const option = prompt("Escolhaa uma opção: (de 1 a 4): ");
+const option = prompt("Escolhaa uma opção: (de 0 a 4): ");
 console.log(option);
 
 const users = [];
