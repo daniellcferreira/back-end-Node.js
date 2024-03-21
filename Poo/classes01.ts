@@ -3,7 +3,7 @@ type Produto = {
   valor: number;
 };
 
-class Estabelecimento {
+class EstabelecimentoBase {
   constructor(
     private endereco: string,
     private tipo: string,
@@ -15,7 +15,7 @@ class Estabelecimento {
   }
 }
 
-const paradaria = new Estabelecimento(
+const padaria = new EstabelecimentoBase(
   "Rua das Laranjeiras, 1200",
   "Alimentação",
   [
@@ -27,4 +27,4 @@ const paradaria = new Estabelecimento(
   ]
 );
 
-console.log(paradaria);
+console.log(padaria);
