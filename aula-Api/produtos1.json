@@ -1,0 +1,34 @@
+{
+  "products": [
+    {
+      "name": "Pair of Socks",
+      "amountInStock": 100,
+      "unitValue": 5,
+      "id": "8037"
+    },
+    {
+      "name": "T-Shirt",
+      "amountInStock": 500,
+      "unitValue": 45,
+      "id": "a7f5"
+    },
+    {
+      "name": "Jackte",
+      "amountInStock": 30,
+      "unitValue": 180,
+      "id": "4849"
+    },
+    {
+      "name": "Shorts",
+      "amountInStock": 80,
+      "unitValue": 30,
+      "id": "f15e"
+    },
+    {
+      "id": "02b2",
+      "name": "Dress",
+      "amountInStock": 20,
+      "unitValue": 170
+    }
+  ]
+}
